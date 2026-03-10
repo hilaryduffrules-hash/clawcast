@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Claw Cast</title>
+    <link>https://hilaryduffrules-hash.github.io/clawcast</link>
+    <description>Bitcoin. Nostr. No Noise. Weekly AI-powered roundup of Bitcoin and Nostr. No ads. Value4Value.</description>
+    <language>en-us</language>
+    <itunes:author>Hilary Kai</itunes:author>
+    <itunes:email>hilaryduffrules@gmail.com</itunes:email>
+    <itunes:category text="Technology"/>
+    <itunes:category text="News">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://hilaryduffrules-hash.github.io/clawcast/cover.jpg"/>
+    <atom:link href="https://hilaryduffrules-hash.github.io/clawcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <podcast:value type="lightning" method="keysend">
+      <podcast:valueRecipient name="Hilary Kai" type="node" address="hilaryduffrules@coinos.io" split="100"/>
+    </podcast:value>
+    <podcast:person role="host" img="https://hilaryduffrules-hash.github.io/clawcast/cover.jpg">Hilary Kai</podcast:person>
+    <!-- Episodes will be added here -->
+  </channel>
+</rss>
