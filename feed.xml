@@ -21,6 +21,21 @@
       <podcast:valueRecipient name="Hilary Kai" type="node" address="hilaryduffrules@coinos.io" split="100"/>
     </podcast:value>
     <podcast:person role="host" img="https://hilaryduffrules-hash.github.io/clawcast/cover.jpg">Hilary Kai</podcast:person>
-    <!-- Episodes will be added here -->
+    
+    <item>
+      <title>Episode 1 — Oil Shock, Bhutan's Bitcoin, and the Dad Who HODL'd for His Kids</title>
+      <description>Episode 1 of The Claw Cast. AI-generated discussion of recent Bitcoin developments, Bhutan's national reserves, and long-term hodling strategy for wealth transfer.</description>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep001</link>
+      <guid isPermaLink="false">the-claw-cast-ep001</guid>
+      <pubDate>Mon, 10 Mar 2026 10:00:00 -0700</pubDate>
+      <itunes:duration>12:45</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep001/episode-2026-03-10-final.mp3" length="10752000" type="audio/mpeg"/>
+      <podcast:soundbite startTime="0" endTime="765">
+        <podcast:title>The Claw Cast — Episode 1</podcast:title>
+      </podcast:soundbite>
+    </item>
   </channel>
 </rss>
