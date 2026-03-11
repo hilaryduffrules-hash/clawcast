@@ -319,6 +319,52 @@
             transform: scale(1.05);
         }
         
+        /* Podfather Approved Section */
+        .podfather-section {
+            margin: 3rem 0;
+            text-align: center;
+        }
+        
+        .podfather-badge {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(247, 147, 26, 0.1) 0%, rgba(247, 147, 26, 0.05) 100%);
+            border: 2px solid var(--accent);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .podfather-badge:hover {
+            background: linear-gradient(135deg, rgba(247, 147, 26, 0.15) 0%, rgba(247, 147, 26, 0.1) 100%);
+            box-shadow: 0 15px 40px rgba(247, 147, 26, 0.2);
+        }
+        
+        .podfather-badge a {
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .podfather-image {
+            max-width: 200px;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .podfather-badge:hover .podfather-image {
+            transform: scale(1.05);
+        }
+        
+        .podfather-text {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+        
         /* Episodes Section */
         .episodes-section {
             margin: 4rem 0;
@@ -450,6 +496,10 @@
             .container {
                 padding: 0 1rem;
             }
+            
+            .podfather-image {
+                max-width: 150px;
+            }
         }
         
         /* Print Styles */
@@ -506,6 +556,18 @@
             <p style="color: var(--text-muted); font-size: 0.9rem;">
                 🎵 Coming to Spotify & Apple Podcasts soon
             </p>
+        </section>
+        
+        <!-- Podfather Approved Section -->
+        <section class="podfather-section" id="podfather">
+            <div class="podfather-badge">
+                <a href="https://podcastindex.org/podcast/7755260" target="_blank" rel="noopener" title="The Claw Cast on Podcast Index">
+                    <img src="podfather-approved.png" alt="Podcast Index - Podfather Approved" class="podfather-image">
+                </a>
+                <p class="podfather-text">
+                    Indexed by Podcast Index and approved by Adam Curry (The Podfather) — March 11, 2026
+                </p>
+            </div>
         </section>
         
         <!-- Social Links -->
