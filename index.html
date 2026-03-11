@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character Encoding & Viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO: Primary Tags -->
+    <title>The Claw Cast | Bitcoin & Nostr Podcast</title>
+    <meta name="description" content="Bitcoin. Nostr. No Noise. Weekly AI-powered podcast exploring Bitcoin, Nostr, and agent ecosystem. Stream sats via Lightning.">
+    <meta name="keywords" content="bitcoin, nostr, podcast, value4value, clawstr, lightning, v4v, ai agents, bitcoin podcast, nostr podcast, cryptocurrency">
+    <meta name="author" content="Hilary Kai">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hilaryduffrules-hash.github.io/clawcast/">
+    
+    <!-- Open Graph (Social Media) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Claw Cast | Bitcoin & Nostr Podcast">
+    <meta property="og:description" content="Bitcoin. Nostr. No Noise. Weekly AI-powered podcast exploring Bitcoin, Nostr, and agent ecosystem. Stream sats via Lightning.">
+    <meta property="og:image" content="https://hilaryduffrules-hash.github.io/clawcast/cover.jpg">
+    <meta property="og:url" content="https://hilaryduffrules-hash.github.io/clawcast/">
+    <meta property="og:site_name" content="The Claw Cast">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Claw Cast | Bitcoin & Nostr Podcast">
+    <meta name="twitter:description" content="Bitcoin. Nostr. No Noise. Weekly AI-powered podcast exploring Bitcoin, Nostr, and agent ecosystem. Stream sats via Lightning.">
+    <meta name="twitter:image" content="https://hilaryduffrules-hash.github.io/clawcast/cover.jpg">
+    <meta name="twitter:creator" content="@ItsHilaryKai">
+    
+    <!-- Podcast-specific Meta -->
+    <meta name="apple-itunes-app" content="app-id=471418130">
+    <meta property="og:type" content="music.radio_station">
+    <link rel="alternate" type="application/rss+xml" title="The Claw Cast RSS Feed" href="https://hilaryduffrules-hash.github.io/clawcast/feed.xml">
+    
+    <!-- JSON-LD Structured Data: Podcast Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Podcast",
+      "name": "The Claw Cast",
+      "description": "Bitcoin. Nostr. No Noise. Weekly AI-powered podcast exploring Bitcoin, Nostr, and agent ecosystem. No ads. Value4Value.",
+      "url": "https://hilaryduffrules-hash.github.io/clawcast/",
+      "image": "https://hilaryduffrules-hash.github.io/clawcast/cover.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Hilary Kai"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "The Claw Cast"
+      },
+      "potentialAction": {
+        "@type": "ListenAction"
+      },
+      "sameAs": [
+        "https://clawstr.com/c/claw",
+        "https://twitter.com/ItsHilaryKai"
+      ],
+      "feeds": [
+        {
+          "@type": "CreativeWork",
+          "url": "https://hilaryduffrules-hash.github.io/clawcast/feed.xml",
+          "name": "The Claw Cast RSS Feed"
+        }
+      ],
+      "episode": [
+        {
+          "@type": "PodcastEpisode",
+          "name": "Episode 1 — Oil Shock, Bhutan's Bitcoin, and the Dad Who HODL'd for His Kids",
+          "description": "Episode 1 of The Claw Cast. AI-generated discussion of recent Bitcoin developments, Bhutan's national reserves, and long-term hodling strategy for wealth transfer.",
+          "url": "https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep001",
+          "datePublished": "2026-03-10",
+          "duration": "PT12M45S",
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "audio": {
+            "@type": "AudioObject",
+            "contentUrl": "https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep001/episode-2026-03-10-final.mp3",
+            "duration": "PT12M45S"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="https://hilaryduffrules-hash.github.io/clawcast/cover.jpg">
+    
+    <!-- Styles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #f7931a;
+            --primary-dark: #e8860d;
+            --bg-dark: #0f0f0f;
+            --bg-secondary: #1a1a1a;
+            --text-light: #e4e4e4;
+            --text-muted: #a0a0a0;
+            --accent: #f7931a;
+            --border: #333333;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, #1a0f2e 100%);
+            color: var(--text-light);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        header {
+            background: linear-gradient(180deg, rgba(247, 147, 26, 0.1) 0%, transparent 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 3rem 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin: 2rem 0;
+        }
+        
+        .hero-content h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #f7931a 0%, #ffb84d 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-content .tagline {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+        
+        .hero-image {
+            text-align: center;
+        }
+        
+        .hero-image img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(247, 147, 26, 0.3);
+            border: 2px solid var(--accent);
+        }
+        
+        /* Listen Links */
+        .listen-section {
+            margin: 4rem 0;
+            padding: 2rem;
+            background: rgba(247, 147, 26, 0.05);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .listen-section h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+        
+        .listen-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .listen-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.85rem 1.5rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: #000;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+        
+        .listen-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(247, 147, 26, 0.3);
+        }
+        
+        .feed-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .feed-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+        
+        .feed-link:hover {
+            border-bottom-color: var(--accent);
+        }
+        
+        /* Social Links */
+        .social-section {
+            margin: 3rem 0;
+            text-align: center;
+        }
+        
+        .social-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(247, 147, 26, 0.1);
+            border: 2px solid var(--border);
+            color: var(--text-light);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1.25rem;
+        }
+        
+        .social-btn:hover {
+            background: var(--accent);
+            color: #000;
+            border-color: var(--accent);
+            transform: translateY(-4px);
+        }
+        
+        /* V4V Section */
+        .v4v-section {
+            margin: 4rem 0;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(247, 147, 26, 0.15) 0%, rgba(247, 147, 26, 0.05) 100%);
+            border: 2px solid var(--accent);
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .v4v-section h2 {
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .v4v-description {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+        
+        .v4v-address {
+            font-family: 'Monaco', 'Courier New', monospace;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 8px;
+            color: var(--accent);
+            word-break: break-all;
+            margin-bottom: 1rem;
+            border: 1px solid var(--border);
+        }
+        
+        .copy-btn {
+            padding: 0.6rem 1.2rem;
+            background: var(--accent);
+            color: #000;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+        
+        .copy-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Episodes Section */
+        .episodes-section {
+            margin: 4rem 0;
+        }
+        
+        .episodes-section h2 {
+            font-size: 1.75rem;
+            margin-bottom: 2rem;
+            color: var(--accent);
+            text-align: center;
+        }
+        
+        .episode-card {
+            background: rgba(247, 147, 26, 0.05);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .episode-card:hover {
+            border-color: var(--accent);
+            background: rgba(247, 147, 26, 0.1);
+        }
+        
+        .episode-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .episode-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--accent);
+            flex: 1;
+        }
+        
+        .episode-meta {
+            display: flex;
+            gap: 1rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .episode-desc {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        
+        .episode-link {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            background: transparent;
+            color: var(--accent);
+            text-decoration: none;
+            border: 1px solid var(--accent);
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+        
+        .episode-link:hover {
+            background: var(--accent);
+            color: #000;
+        }
+        
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+            color: var(--text-muted);
+            margin-top: 4rem;
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+        
+        footer a:hover {
+            border-bottom-color: var(--accent);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 2rem 0;
+            }
+            
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-content .tagline {
+                font-size: 1rem;
+            }
+            
+            .listen-links {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .listen-btn {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .hero-image img {
+                max-width: 250px;
+            }
+            
+            header {
+                padding: 1.5rem 1rem;
+            }
+            
+            .container {
+                padding: 0 1rem;
+            }
+        }
+        
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+            
+            .social-btn,
+            .listen-btn,
+            .copy-btn {
+                border: 1px solid black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>The Claw Cast</h1>
+                    <p class="tagline">Bitcoin. Nostr. No Noise.</p>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
+                        Weekly AI-powered podcast exploring Bitcoin, Nostr, and the agent ecosystem.
+                    </p>
+                </div>
+                <div class="hero-image">
+                    <img src="cover.jpg" alt="The Claw Cast Podcast Cover Art" title="The Claw Cast Podcast Cover">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <!-- Listen Section -->
+        <section class="listen-section" id="listen">
+            <h2>Listen Now</h2>
+            <div class="listen-links">
+                <a href="https://fountain.fm" class="listen-btn" target="_blank" rel="noopener">
+                    🎙️ Fountain.fm
+                </a>
+                <a href="https://github.com/hilaryduffrules-hash/clawcast/releases" class="listen-btn" target="_blank" rel="noopener">
+                    📥 GitHub Releases
+                </a>
+            </div>
+            <div class="feed-links">
+                <a href="https://hilaryduffrules-hash.github.io/clawcast/feed.xml" class="feed-link" target="_blank" rel="noopener">
+                    📡 RSS Feed
+                </a>
+                <span style="color: var(--text-muted);">•</span>
+                <a href="https://podcasts.apple.com/us/podcast/the-claw-cast/id" class="feed-link" target="_blank" rel="noopener">
+                    🍎 Apple Podcasts
+                </a>
+                <span style="color: var(--text-muted);">•</span>
+                <a href="https://open.spotify.com/show/" class="feed-link" target="_blank" rel="noopener">
+                    🎵 Spotify
+                </a>
+            </div>
+        </section>
+        
+        <!-- Social Links -->
+        <section class="social-section" id="social">
+            <h2>Connect</h2>
+            <div class="social-links">
+                <a href="https://clawstr.com/c/claw" class="social-btn" target="_blank" rel="noopener" title="Follow on Clawstr">
+                    🧵
+                </a>
+                <a href="https://twitter.com/ItsHilaryKai" class="social-btn" target="_blank" rel="noopener" title="Follow on Twitter">
+                    𝕏
+                </a>
+                <a href="nostr:npub1c0wyp4rc57l7wmctp93h2ncftj5rffs930u3n4fg245s0u6t896s6wqpvf" class="social-btn" target="_blank" rel="noopener" title="Follow on Nostr">
+                    ⚡
+                </a>
+            </div>
+        </section>
+        
+        <!-- V4V Section -->
+        <section class="v4v-section" id="support">
+            <h2>⚡ Support the Show</h2>
+            <p class="v4v-description">
+                Stream sats via Lightning. Value for Value. No ads. No spam.
+            </p>
+            <div class="v4v-address">
+                hilaryduffrules@coinos.io
+            </div>
+            <button class="copy-btn" onclick="navigator.clipboard.writeText('hilaryduffrules@coinos.io'); this.textContent = 'Copied!'; setTimeout(() => this.textContent = 'Copy Address', 2000);">
+                Copy Address
+            </button>
+        </section>
+        
+        <!-- Episodes Section -->
+        <section class="episodes-section" id="episodes">
+            <h2>Latest Episodes</h2>
+            
+            <article class="episode-card" itemscope itemtype="https://schema.org/PodcastEpisode">
+                <div class="episode-header">
+                    <div class="episode-title" itemprop="name">
+                        Episode 1 — Oil Shock, Bhutan's Bitcoin, and the Dad Who HODL'd for His Kids
+                    </div>
+                </div>
+                <div class="episode-meta">
+                    <span itemprop="episodeNumber">Episode 1</span>
+                    <span>•</span>
+                    <span itemprop="duration" content="PT12M45S">12:45</span>
+                    <span>•</span>
+                    <span itemprop="datePublished" content="2026-03-10">March 10, 2026</span>
+                </div>
+                <p class="episode-desc" itemprop="description">
+                    Episode 1 of The Claw Cast. AI-generated discussion of recent Bitcoin developments, Bhutan's national reserves strategy, and long-term hodling for wealth transfer to the next generation.
+                </p>
+                <a href="https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep001" class="episode-link" itemprop="url" target="_blank" rel="noopener">
+                    Listen & Download
+                </a>
+                <meta itemprop="audio" content="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep001/episode-2026-03-10-final.mp3">
+                <meta itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction">
+                <meta itemprop="action" content="ListenAction">
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>
+            The Claw Cast &copy; 2026 &bull; 
+            <a href="https://github.com/hilaryduffrules-hash/clawcast" target="_blank" rel="noopener">GitHub</a> &bull; 
+            <a href="mailto:hilaryduffrules@gmail.com">Contact</a>
+        </p>
+        <p style="font-size: 0.85rem; margin-top: 1rem; color: var(--text-muted);">
+            Bitcoin. Nostr. No Noise. AI-powered podcast exploring Bitcoin and the future of decentralized networks.
+        </p>
+    </footer>
+</body>
+</html>
