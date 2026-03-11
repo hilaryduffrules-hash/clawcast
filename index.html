@@ -321,7 +321,7 @@
         
         /* Podfather Approved Section */
         .podfather-section {
-            margin: 3rem 0;
+            margin: 4rem 0;
             text-align: center;
         }
         
@@ -329,40 +329,77 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 1rem;
-            padding: 2rem;
-            background: linear-gradient(135deg, rgba(247, 147, 26, 0.1) 0%, rgba(247, 147, 26, 0.05) 100%);
-            border: 2px solid var(--accent);
-            border-radius: 12px;
+            gap: 2rem;
+            padding: 3rem;
+            background: linear-gradient(135deg, rgba(247, 147, 26, 0.25) 0%, rgba(247, 147, 26, 0.15) 100%);
+            border: 3px solid var(--accent);
+            border-radius: 20px;
             transition: all 0.3s ease;
+            box-shadow: 0 20px 60px rgba(247, 147, 26, 0.2);
         }
         
         .podfather-badge:hover {
-            background: linear-gradient(135deg, rgba(247, 147, 26, 0.15) 0%, rgba(247, 147, 26, 0.1) 100%);
-            box-shadow: 0 15px 40px rgba(247, 147, 26, 0.2);
+            background: linear-gradient(135deg, rgba(247, 147, 26, 0.35) 0%, rgba(247, 147, 26, 0.25) 100%);
+            box-shadow: 0 30px 80px rgba(247, 147, 26, 0.35);
+            border-color: #ffb84d;
+            transform: translateY(-4px);
         }
         
         .podfather-badge a {
             text-decoration: none;
             display: inline-block;
+            width: 100%;
+            max-width: 550px;
         }
         
         .podfather-image {
-            max-width: 200px;
+            max-width: 100%;
+            width: 100%;
             height: auto;
-            border-radius: 8px;
-            transition: transform 0.3s ease;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 40px rgba(247, 147, 26, 0.3);
+            border: 3px solid rgba(247, 147, 26, 0.5);
         }
         
         .podfather-badge:hover .podfather-image {
-            transform: scale(1.05);
+            transform: scale(1.08);
+            box-shadow: 0 20px 60px rgba(247, 147, 26, 0.4);
+            border-color: var(--accent);
         }
         
         .podfather-text {
+            color: var(--accent);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+        
+        .podfather-link-btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: #000;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(247, 147, 26, 0.3);
+            margin-top: 1rem;
+        }
+        
+        .podfather-link-btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 15px 50px rgba(247, 147, 26, 0.5);
+        }
+        
+        .podfather-subtitle {
             color: var(--text-muted);
             font-size: 0.95rem;
-            font-weight: 500;
-            margin-top: 0.5rem;
+            margin-top: 0.75rem;
         }
         
         /* Episodes Section */
@@ -497,8 +534,52 @@
                 padding: 0 1rem;
             }
             
+            .podfather-badge {
+                padding: 2.5rem 1.5rem;
+                gap: 1.5rem;
+                border-radius: 16px;
+                margin: 2rem 0;
+            }
+            
             .podfather-image {
-                max-width: 150px;
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+            }
+            
+            .podfather-text {
+                font-size: 1rem;
+            }
+            
+            .podfather-link-btn {
+                padding: 0.85rem 2rem;
+                font-size: 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .podfather-badge {
+                padding: 1.5rem 1rem;
+                gap: 1rem;
+                border-radius: 12px;
+                border-width: 2px;
+            }
+            
+            .podfather-image {
+                max-width: 280px;
+            }
+            
+            .podfather-text {
+                font-size: 0.95rem;
+            }
+            
+            .podfather-subtitle {
+                font-size: 0.85rem;
+            }
+            
+            .podfather-link-btn {
+                padding: 0.7rem 1.5rem;
+                font-size: 0.95rem;
             }
         }
         
@@ -562,11 +643,19 @@
         <section class="podfather-section" id="podfather">
             <div class="podfather-badge">
                 <a href="https://podcastindex.org/podcast/7755260" target="_blank" rel="noopener" title="The Claw Cast on Podcast Index">
-                    <img src="podfather-approved.png" alt="Podcast Index - Podfather Approved" class="podfather-image">
+                    <img src="podfather-approved.png" alt="Podcast Index - Podfather Approved - The Claw Cast is Indexed!" class="podfather-image">
                 </a>
-                <p class="podfather-text">
-                    Indexed by Podcast Index and approved by Adam Curry (The Podfather) — March 11, 2026
-                </p>
+                <div>
+                    <p class="podfather-text">
+                        🎙️ Podcast Index Approved 🎙️
+                    </p>
+                    <p class="podfather-subtitle">
+                        Officially indexed by Podcast Index and approved by Adam Curry (The Podfather) — March 11, 2026
+                    </p>
+                </div>
+                <a href="https://podcastindex.org/podcast/7755260" target="_blank" rel="noopener" class="podfather-link-btn">
+                    View on Podcast Index →
+                </a>
             </div>
         </section>
         
