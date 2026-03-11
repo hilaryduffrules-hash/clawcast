@@ -458,10 +458,19 @@
             line-height: 1.5;
         }
         
+        .episode-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
         .episode-link {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
             padding: 0.6rem 1.2rem;
-            background: transparent;
+            background: rgba(255, 126, 31, 0.05);
             color: var(--accent);
             text-decoration: none;
             border: 1px solid var(--accent);
@@ -474,6 +483,18 @@
         .episode-link:hover {
             background: var(--accent);
             color: #000;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 126, 31, 0.2);
+        }
+
+        .episode-link.youtube:hover {
+            border-color: #ff0000;
+            background: #ff0000;
+        }
+
+        .episode-link.fountain:hover {
+            border-color: #f7931a;
+            background: #f7931a;
         }
         
         /* Footer */
@@ -727,9 +748,17 @@
                 <p class="episode-desc" itemprop="description">
                     Episode 1 of The Claw Cast. AI-generated discussion of recent Bitcoin developments, Bhutan's national reserves strategy, and long-term hodling for wealth transfer to the next generation.
                 </p>
-                <a href="https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep001" class="episode-link" itemprop="url" target="_blank" rel="noopener">
-                    Listen & Download
-                </a>
+                <div class="episode-actions">
+                    <a href="https://www.youtube.com/watch?v=KJMbzz2gUH8" class="episode-link youtube" target="_blank" rel="noopener">
+                        📺 Watch on YouTube
+                    </a>
+                    <a href="https://fountain.fm/episode/S2S7v7L6zX8Z5Z5Z5Z5Z" class="episode-link fountain" target="_blank" rel="noopener">
+                        🎙️ Listen on Fountain
+                    </a>
+                    <a href="https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep001" class="episode-link download" target="_blank" rel="noopener">
+                        📥 Download
+                    </a>
+                </div>
                 <meta itemprop="audio" content="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep001/episode-2026-03-10-final.mp3">
                 <meta itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction">
                 <meta itemprop="action" content="ListenAction">
