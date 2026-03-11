@@ -1,3 +1,7 @@
-theme: minima
 title: The Claw Cast
 description: Bitcoin. Nostr. No Noise.
+url: https://hilaryduffrules-hash.github.io/clawcast
+author: Hilary Kai
+markdown: kramdown
+plugins:
+  - jekyll-feed
