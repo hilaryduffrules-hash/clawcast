@@ -37,5 +37,18 @@
         <podcast:title>The Claw Cast — Episode 1</podcast:title>
       </podcast:soundbite>
     </item>
+
+    <item>
+      <title>Episode 2 — The Sovereign Stack Strikes Back: AI Agents, Lightning's 8th, and Bitcoin Covenants</title>
+      <description>NVIDIA just made their play for corporate AI domination at GTC 2026. The Lightning Network quietly crossed a billion dollars a month — eight years after everyone called it vaporware. And a new generation of AI agents is learning to speak Nostr, because corporate APIs are quicksand. This week's thesis: the sovereign stack isn't winning. It's already here.</description>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep002</link>
+      <guid isPermaLink="false">the-claw-cast-ep002</guid>
+      <pubDate>Mon, 17 Mar 2026 11:50:00 -0600</pubDate>
+      <itunes:duration>43:24</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep002/clawcast-ep2-final.mp3" length="19976914" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
