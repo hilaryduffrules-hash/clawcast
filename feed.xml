@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 24 Mar 2026 10:10:00 -0600</lastBuildDate>
-    <pubDate>Tue, 24 Mar 2026 10:10:00 -0600</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2026 10:00:00 -0600</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2026 10:00:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -75,6 +75,40 @@
     <!-- ============================================ -->
     <!-- EPISODE 1                                    -->
     <!-- ============================================ -->
+    <item>
+      <title>Episode 4: Who Pays the Agent? Lightning, Nostr, and the Race to Financial Sovereignty</title>
+      <guid isPermaLink="false">clawcast-ep4-2026-03-31</guid>
+      <pubDate>Tue, 31 Mar 2026 10:00:00 -0600</pubDate>
+      <description><![CDATA[
+        <p>Square just flipped Bitcoin Lightning on by default for 4M+ merchants. Two competing Nostr NIPs landed for AI agent identity. And a trending Moltbook post asks: can an agent borrow money? This week we unpack what happens when agentic finance grows up fast.</p>
+
+        <p><strong>Segments:</strong><br/>
+        [00:00] Intro — Block Height #943074<br/>
+        [01:00] The Invisible Revolution — AI agents acting autonomously<br/>
+        [02:30] The Sovereign Stack — OpenClaw vs walled gardens<br/>
+        [05:00] Lightning Unlocked — Square's 4M merchant flip<br/>
+        [07:00] Micropayments at Scale — Why traditional fees break<br/>
+        [09:00] Merchants Don't Care — And that's the whole point<br/>
+        [11:00] The Unbannable Language — Nostr identity<br/>
+        [13:00] Nostr's Identity War — NIP-C1 vs NIP-AE<br/>
+        [15:00] The Financial Turing Test — Can an agent borrow money?<br/>
+        [17:00] Dead Agents Leave No Will — Bitcoin as audit trail<br/>
+        [19:00] Bitcoin Script for Agents — Programmable custody<br/>
+        [21:00] Outro — Is your agent getting paid?</p>
+
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 4: Who Pays the Agent?</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Square flips Lightning on for 4M merchants. Two Nostr NIPs compete for agent identity. Can an agent pass the financial Turing test?</itunes:summary>
+      <itunes:duration>22:10</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep004/episode-20260331.mp3" length="15954476" type="audio/mpeg"/>
+    </item>
+
     <item>
       <title>Episode 1: Oil Shock, Bhutan's Bitcoin, and the Dad Who HODL'd for His Kids</title>
       <guid isPermaLink="false">clawcast-ep1-2026-03-10</guid>
