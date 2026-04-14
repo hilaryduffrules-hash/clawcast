@@ -6,28 +6,43 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
   <channel>
+    <!-- ============================================ -->
+    <!-- SHOW METADATA — update before going live     -->
+    <!-- ============================================ -->
     <title>The Claw Cast</title>
     <link>https://hilaryduffrules-hash.github.io/clawcast</link>
-    <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr, market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
+    <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Thu, 09 Apr 2026 19:58:00 -0600</lastBuildDate>
-    <pubDate>Thu, 09 Apr 2026 19:58:00 -0600</pubDate>
+    <lastBuildDate>Mon, 14 Apr 2026 12:00:00 -0600</lastBuildDate>
+    <pubDate>Mon, 14 Apr 2026 12:00:00 -0600</pubDate>
+
+    <!-- Self-referencing atom link (required by validators) -->
+    <!-- TODO: Update href to actual RSS URL after hosting decision -->
     <atom:link href="https://hilaryduffrules-hash.github.io/clawcast/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- ============================================ -->
+    <!-- COVER ART — 1400x1400px min, 3000x3000 max  -->
+    <!-- ============================================ -->
+    <!-- TODO: Upload cover art and replace this URL -->
     <image>
       <url>https://hilaryduffrules-hash.github.io/clawcast/cover.png</url>
       <title>The Claw Cast</title>
       <link>https://hilaryduffrules-hash.github.io/clawcast</link>
     </image>
 
+    <!-- ============================================ -->
+    <!-- ITUNES / APPLE PODCASTS TAGS                 -->
+    <!-- ============================================ -->
     <itunes:title>The Claw Cast</itunes:title>
     <itunes:author>Hilary Kai</itunes:author>
-    <itunes:summary>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr, market moves, community stories, tech updates, and orange-pill moments.</itunes:summary>
-    <itunes:description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr, market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</itunes:description>
+    <itunes:summary>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments.</itunes:summary>
+    <itunes:description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</itunes:description>
     <itunes:owner>
       <itunes:name>Hilary Kai</itunes:name>
       <itunes:email>hilaryduffrules@gmail.com</itunes:email>
     </itunes:owner>
+    <!-- TODO: Upload cover art and replace this URL -->
     <itunes:image href="https://hilaryduffrules-hash.github.io/clawcast/cover.png"/>
     <itunes:category text="Technology"/>
     <itunes:category text="News">
@@ -37,92 +52,95 @@
     <itunes:type>episodic</itunes:type>
     <itunes:new-feed-url>https://hilaryduffrules-hash.github.io/clawcast/feed.xml</itunes:new-feed-url>
 
+    <!-- ============================================ -->
+    <!-- PODCASTING 2.0 — VALUE4VALUE (V4V)          -->
+    <!-- Lightning address: hilaryduffrules@coinos.io -->
+    <!-- ============================================ -->
     <podcast:value type="lightning" method="keysend">
-      <podcast:valueRecipient name="The Claw Cast" type="lnaddress" address="hilaryduffrules@coinos.io" split="100" />
+      <podcast:valueRecipient
+        name="The Claw Cast"
+        type="lnaddress"
+        address="hilaryduffrules@coinos.io"
+        split="100"
+      />
     </podcast:value>
+
+    <!-- Podcast GUID — unique, permanent identifier for this show -->
     <podcast:guid>e7f3b2a1-4c8d-4e9f-a0b1-2c3d4e5f6a7b</podcast:guid>
+
+    <!-- Podcast Index tags -->
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+    <!-- ============================================ -->
+    <!-- EPISODE 6                                    -->
+    <!-- ============================================ -->
     <item>
-      <title>Episode 5: The Agent Economy Reality Check, Mesh Included</title>
-      <guid isPermaLink="false">clawcast-ep5-2026-04-09</guid>
-      <pubDate>Thu, 09 Apr 2026 19:58:00 -0600</pubDate>
+      <title>Episode 6: When Machines Choose Money</title>
+      <guid isPermaLink="false">clawcast-ep6-2026-04-14</guid>
+      <pubDate>Mon, 14 Apr 2026 12:00:00 -0600</pubDate>
       <description><![CDATA[
-        <p>Quick note before we get into it: thanks for being patient with us, and sorry this episode is landing late on Thursday. We wanted to make sure this one was worth the wait.</p>
-        <p>This week: 91 percent agent wheel-spinning, keypair identity becoming real, why mesh coordination belongs in the story, why non-custodial L402 makes the payment rail more credible, and what the Drift $285M exploit says about human trust and social engineering.</p>
-        <p><strong>Freshness anchor:</strong> Bitcoin block window 944384 through 944399, with block 944399 as the reference point near tip during production.</p>
+        <p>Iran is demanding Bitcoin from ships passing through the Strait of Hormuz. And a study across thirty-six AI models found that not a single one chose fiat as its preferred money. Different headlines. Same story. Sovereignty is going digital.</p>
+
+        <p><strong>Segments:</strong><br/>
+        [00:00] Intro — Two stories, same signal<br/>
+        [00:30] Segment 1: Iran's Bitcoin Tollbooth — Censorship resistance at nation-state scale<br/>
+        [04:30] Segment 2: AI's Monetary Instinct — 36 models, zero chose fiat<br/>
+        [08:30] Segment 3: The Convergence — Sovereignty as infrastructure<br/>
+        [11:30] Segment 4: SOVAI Summit and What's Next<br/>
+        [13:30] Outro + Value for Value</p>
+
         <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
         <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
       ]]></description>
-      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep005</link>
-      <itunes:title>Episode 5: The Agent Economy Reality Check, Mesh Included</itunes:title>
+      <itunes:title>Episode 6: When Machines Choose Money</itunes:title>
       <itunes:author>Hilary Kai</itunes:author>
-      <itunes:summary>A reality-check episode on agent waste, keypair identity, mesh coordination, non-custodial L402, and the Drift exploit.</itunes:summary>
-      <itunes:duration>00:38:03</itunes:duration>
-      <itunes:episode>5</itunes:episode>
-      <itunes:season>1</itunes:season>
+      <itunes:summary>Iran uses Bitcoin for shipping tolls. 36 AI models reject fiat. Sovereignty is now an infrastructure word.</itunes:summary>
+      <itunes:duration>00:21:48</itunes:duration>
+      <itunes:episode>6</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep005/clawcast-ep5-replacement-20260409-r3-final.mp3" length="27399870" type="audio/mpeg"/>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep006/clawcast-ep6-final-corrected.mp3"
+        length="10470438"
+        type="audio/mpeg"/>
     </item>
 
+    <!-- ============================================ -->
+    <!-- EPISODE 1                                    -->
+    <!-- ============================================ -->
     <item>
       <title>Episode 4: Who Pays the Agent? Lightning, Nostr, and the Race to Financial Sovereignty</title>
       <guid isPermaLink="false">clawcast-ep4-2026-03-31</guid>
-      <pubDate>Tue, 31 Mar 2026 10:00:00 -0600</pubDate>
+      <pubDate>Mon, 14 Apr 2026 12:00:00 -0600</pubDate>
       <description><![CDATA[
         <p>Square just flipped Bitcoin Lightning on by default for 4M+ merchants. Two competing Nostr NIPs landed for AI agent identity. And a trending Moltbook post asks: can an agent borrow money? This week we unpack what happens when agentic finance grows up fast.</p>
+
+        <p><strong>Segments:</strong><br/>
+        [00:00] Intro — Block Height #943074<br/>
+        [01:00] The Invisible Revolution — AI agents acting autonomously<br/>
+        [02:30] The Sovereign Stack — OpenClaw vs walled gardens<br/>
+        [05:00] Lightning Unlocked — Square's 4M merchant flip<br/>
+        [07:00] Micropayments at Scale — Why traditional fees break<br/>
+        [09:00] Merchants Don't Care — And that's the whole point<br/>
+        [11:00] The Unbannable Language — Nostr identity<br/>
+        [13:00] Nostr's Identity War — NIP-C1 vs NIP-AE<br/>
+        [15:00] The Financial Turing Test — Can an agent borrow money?<br/>
+        [17:00] Dead Agents Leave No Will — Bitcoin as audit trail<br/>
+        [19:00] Bitcoin Script for Agents — Programmable custody<br/>
+        [21:00] Outro — Is your agent getting paid?</p>
+
         <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
       ]]></description>
-      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep004</link>
       <itunes:title>Episode 4: Who Pays the Agent?</itunes:title>
       <itunes:author>Hilary Kai</itunes:author>
       <itunes:summary>Square flips Lightning on for 4M merchants. Two Nostr NIPs compete for agent identity. Can an agent pass the financial Turing test?</itunes:summary>
       <itunes:duration>22:10</itunes:duration>
       <itunes:episode>4</itunes:episode>
-      <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
       <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep004/episode-20260331.mp3" length="15954476" type="audio/mpeg"/>
-    </item>
-
-    <item>
-      <title>Episode 3: Lightning Receipts: How Bitcoin Solves the Agent Trust Problem</title>
-      <guid isPermaLink="false">clawcast-ep3-2026-03-24</guid>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 -0600</pubDate>
-      <description><![CDATA[
-        <p>Your agent just solved a problem. How do you know it actually solved it? This week we explore Trust Receipts, Lightning hold invoices where agents stake real sats on task completion.</p>
-      ]]></description>
-      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep003</link>
-      <itunes:title>Episode 3: Lightning Receipts: How Bitcoin Solves the Agent Trust Problem</itunes:title>
-      <itunes:author>Hilary Kai</itunes:author>
-      <itunes:summary>Bitcoin solves the agent trust gap with Lightning hold invoices, Square's 4M merchant rollout, and the protocol war for agent identity.</itunes:summary>
-      <itunes:duration>00:23:13</itunes:duration>
-      <itunes:episode>3</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep003/episode-20260324.mp3" length="16720908" type="audio/mpeg"/>
-    </item>
-
-    <item>
-      <title>Episode 2: The Sovereign Stack Strikes Back, AI Agents, Lightning's 8th, and Bitcoin Covenants</title>
-      <guid isPermaLink="false">clawcast-ep2-2026-03-17</guid>
-      <pubDate>Tue, 17 Mar 2026 11:50:00 -0600</pubDate>
-      <description><![CDATA[
-        <p>NVIDIA just made their play for corporate AI domination at GTC 2026. The Lightning Network quietly crossed a billion dollars a month, eight years after everyone called it vaporware.</p>
-      ]]></description>
-      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep002</link>
-      <itunes:title>Episode 2: The Sovereign Stack Strikes Back</itunes:title>
-      <itunes:author>Hilary Kai</itunes:author>
-      <itunes:summary>NVIDIA vs OpenClaw, Lightning's 8th birthday, Nostr agent protocols, and Bitcoin Covenants simplified.</itunes:summary>
-      <itunes:duration>00:43:24</itunes:duration>
-      <itunes:episode>2</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep002/clawcast-ep2-final.mp3" length="19976914" type="audio/mpeg"/>
     </item>
 
     <item>
@@ -130,9 +148,30 @@
       <guid isPermaLink="false">clawcast-ep1-2026-03-10</guid>
       <pubDate>Tue, 10 Mar 2026 10:30:00 -0600</pubDate>
       <description><![CDATA[
-        <p>Bitcoin dips on oil shock, Bhutan sells state-mined BTC, Strategy buys the dip, and a viral dad letter captures why people stack sats.</p>
+        <p>Episode 1 of The Claw Cast — Bitcoin. Nostr. No Noise.</p>
+
+        <p>This week: an oil shock rattles markets and Bitcoin dips to the mid-$60Ks before finding 
+        its footing at $70K. We dig into why that dip might have created the most important 
+        on-chain support zone of 2026. Plus: Bhutan quietly sold 58% of its state-mined Bitcoin 
+        stack — and why that's actually a story about smart treasury management, not panic. 
+        Strategy bought $1.28 billion worth of Bitcoin during the dip. And a dad's viral letter 
+        to his two sons about buying 2 BTC captures exactly why people stack sats.</p>
+
+        <p><strong>Segments:</strong><br/>
+        [00:00] Intro<br/>
+        [01:00] Bitcoin price action — oil shock and the $70K recovery<br/>
+        [03:00] Bhutan's Bitcoin drawdown — hydro-mining meets sovereign treasury strategy<br/>
+        [06:00] The $60K–$70K support zone — on-chain cost basis explained<br/>
+        [08:30] Strategy buys $1.28B — 738,731 BTC total<br/>
+        [10:00] The dad letter — orange-pill story of the week<br/>
+        [11:30] Bank surveillance — this is why we Bitcoin<br/>
+        [13:00] Nostr corner — V4V podcasting and the Bitcoin creator economy<br/>
+        [14:00] Stack Sats Tip: on-chain cost basis clusters<br/>
+        [15:00] Outro</p>
+
+        <p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just orange-pilled signal, no fiat noise.</em></p>
       ]]></description>
-      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep001</link>
       <itunes:title>Episode 1: Oil Shock, Bhutan's Bitcoin, and the Dad Who HODL'd for His Kids</itunes:title>
       <itunes:author>Hilary Kai</itunes:author>
       <itunes:summary>Bitcoin dips on oil shock, Bhutan sells state-mined BTC, Strategy buys the dip, and a viral dad letter captures why people stack sats.</itunes:summary>
@@ -141,7 +180,79 @@
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep001/episode-2026-03-10-final.mp3" length="19600000" type="audio/mpeg"/>
+      <!-- TODO: Replace with actual audio URL after hosting decision -->
+      <!-- Audio will be: NotebookLM generated MP3, compressed to 128kbps ~12MB -->
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep001/episode-2026-03-10-final.mp3"
+        length="19600000"
+        type="audio/mpeg"/>
+      <!-- Podcast 2.0: chapter support (optional, add chapters JSON URL when ready) -->
+      <!-- <podcast:chapters url="https://hilaryduffrules-hash.github.io/clawcast/episodes/ep1-chapters.json" type="application/json+chapters"/> -->
     </item>
+
+    <item>
+      <title>Episode 2: The Sovereign Stack Strikes Back — AI Agents, Lightning's 8th, and Bitcoin Covenants</title>
+      <guid isPermaLink="false">clawcast-ep2-2026-03-17</guid>
+      <pubDate>Tue, 17 Mar 2026 11:50:00 -0600</pubDate>
+      <description><![CDATA[
+        <p>NVIDIA just made their play for corporate AI domination at GTC 2026. The Lightning Network quietly crossed a billion dollars a month — eight years after everyone called it vaporware. And a new generation of AI agents is learning to speak Nostr, because corporate APIs are quicksand. This week's thesis: the sovereign stack isn't winning. It's already here.</p>
+
+        <p><strong>Segments:</strong><br/>
+        [00:00] Intro — The battle for the future of computing<br/>
+        [01:00] Segment 1: NVIDIA's Gambit — NemoClaw and the Corporate Agentic Web<br/>
+        [12:00] Segment 2: Happy 8th Birthday, Lightning — The Billion-Dollar Underdog<br/>
+        [22:00] Segment 3: The Agentic Web Speaks Nostr<br/>
+        [32:00] Segment 4: Bitcoin Covenants 101 — CTV, CSFS, and the future of vaults<br/>
+        [42:00] Outro + where to find us</p>
+
+        <p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 2: The Sovereign Stack Strikes Back — AI Agents, Lightning's 8th, and Bitcoin Covenants</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>NVIDIA vs OpenClaw, Lightning's 8th birthday, Nostr agent protocols, and Bitcoin Covenants simplified.</itunes:summary>
+      <itunes:duration>00:43:24</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep002/clawcast-ep2-final.mp3"
+        length="19976914"
+        type="audio/mpeg"/>
+    </item>
+
+    <item>
+      <title>Episode 3: Lightning Receipts: How Bitcoin Solves the Agent Trust Problem</title>
+      <guid isPermaLink="false">clawcast-ep3-2026-03-24</guid>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 -0600</pubDate>
+      <description><![CDATA[
+        <p>Your agent just solved a problem. How do you know it actually solved it? This week we explore Trust Receipts — Lightning hold invoices where agents stake real sats on task completion. Forfeited sats = public proof of failure. Released sats = cryptographic confirmation. The missing economic layer for autonomous agents.</p>
+
+        <p><strong>Segments:</strong><br/>
+        [00:00] Intro — The Contractor's Kitchen Metaphor<br/>
+        [03:00] Segment 1: The Trust Gap — Why log entries aren't enough for accountability<br/>
+        [08:00] Segment 2: How Lightning Hold Invoices Work — The commitment device with on-chain consequences<br/>
+        [15:00] Segment 3: Square's 4M Merchant Lightning Rollout and the Autoresearch Paradox<br/>
+        [19:00] Segment 4: NeverMind x402 vs TollboothDPYC — The protocol war for agent identity<br/>
+        [22:00] Outro + Why economic stakes make AI smarter</p>
+
+        <p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 3: Lightning Receipts: How Bitcoin Solves the Agent Trust Problem</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Bitcoin solves the agent trust gap with Lightning hold invoices, Square's 4M merchant rollout, and the protocol war for agent identity.</itunes:summary>
+      <itunes:duration>00:23:13</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep003/episode-20260324.mp3"
+        length="16720908"
+        type="audio/mpeg"/>
+    </item>
+
   </channel>
 </rss>
