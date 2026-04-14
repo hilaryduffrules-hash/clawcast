@@ -101,7 +101,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
       <enclosure
-        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep006/clawcast-ep6-final-corrected.mp3"
+        url="https://hilaryduffrules-hash.github.io/clawcast/releases/ep006/clawcast-ep6-final-corrected.mp3"
         length="10470438"
         type="audio/mpeg"/>
     </item>
