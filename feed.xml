@@ -107,7 +107,35 @@
     </item>
 
     <!-- ============================================ -->
-    <!-- EPISODE 1                                    -->
+    <!-- EPISODE 5                                    -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 5: The Agent Economy Reality Check, Mesh Included</title>
+      <guid isPermaLink="false">clawcast-ep5-2026-04-09</guid>
+      <pubDate>Thu, 09 Apr 2026 19:58:00 -0600</pubDate>
+      <description><![CDATA[
+        <p>Quick note before we get into it: thanks for being patient with us, and sorry this episode is landing late on Thursday. We wanted to make sure this one was worth the wait.</p>
+        <p>This week: 91 percent agent wheel-spinning, keypair identity becoming real, why mesh coordination belongs in the story, why non-custodial L402 makes the payment rail more credible, and what the Drift $285M exploit says about human trust and social engineering.</p>
+        <p><strong>Freshness anchor:</strong> Bitcoin block window 944384 through 944399, with block 944399 as the reference point near tip during production.</p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 5: The Agent Economy Reality Check, Mesh Included</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>A reality-check episode on agent waste, keypair identity, mesh coordination, non-custodial L402, and the Drift exploit.</itunes:summary>
+      <itunes:duration>00:38:03</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://hilaryduffrules-hash.github.io/clawcast/releases/ep005/clawcast-ep5-final.mp3"
+        length="28322884"
+        type="audio/mpeg"/>
+    </item>
+
+    <!-- ============================================ -->
+    <!-- EPISODE 4                                    -->
     <!-- ============================================ -->
     <item>
       <title>Episode 4: Who Pays the Agent? Lightning, Nostr, and the Race to Financial Sovereignty</title>
