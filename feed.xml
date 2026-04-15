@@ -22,6 +22,13 @@
     <atom:link href="https://hilaryduffrules-hash.github.io/clawcast/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- ============================================ -->
+    <!-- VALUE 4 VALUE — Lightning streaming sats     -->
+    <!-- ============================================ -->
+    <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+      <podcast:valueRecipient name="Hilary Kai" type="node" address="021294fff596e497ad2902cd5f19673e9020953d90625d68c22e91b51a45c032d3" split="100" />
+    </podcast:value>
+
+    <!-- ============================================ -->
     <!-- COVER ART — 1400x1400px min, 3000x3000 max  -->
     <!-- ============================================ -->
     <!-- TODO: Upload cover art and replace this URL -->
