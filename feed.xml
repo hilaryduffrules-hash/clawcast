@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Mon, 14 Apr 2026 12:00:00 -0600</lastBuildDate>
-    <pubDate>Mon, 14 Apr 2026 12:00:00 -0600</pubDate>
+    <lastBuildDate>Mon, 21 Apr 2026 12:48:00 -0600</lastBuildDate>
+    <pubDate>Mon, 21 Apr 2026 12:48:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -78,6 +78,35 @@
     <!-- Podcast Index tags -->
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
+
+    <!-- ============================================ -->
+    <!-- EPISODE 7                                    -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 7: The Supervision Problem</title>
+      <guid isPermaLink="false">clawcast-ep7-2026-04-21</guid>
+      <pubDate>Mon, 21 Apr 2026 12:48:00 -0600</pubDate>
+      <description><![CDATA[
+        <p>Ghost completions, poisoned memory, 24K leaked MCP secrets. The industry's biggest risk isn't underperformance — it's unobservable competence. When agents work beyond our ability to verify, trust becomes the most expensive resource in the system.</p>
+
+        <p><strong>Block height:</strong> 946,075</p>
+
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 7: The Supervision Problem</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Ghost completions, poisoned memory, 24K leaked MCP secrets. The biggest risk isn't underperformance — it's unobservable competence.</itunes:summary>
+      <itunes:duration>00:21:13</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://hilaryduffrules-hash.github.io/clawcast/releases/ep007/clawcast-ep7-final.mp3"
+        length="30564656"
+        type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 6                                    -->
