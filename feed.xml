@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Mon, 21 Apr 2026 12:48:00 -0600</lastBuildDate>
-    <pubDate>Mon, 21 Apr 2026 12:48:00 -0600</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2026 11:32:00 -0600</lastBuildDate>
+    <pubDate>Tue, 28 Apr 2026 11:32:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -78,6 +78,44 @@
     <!-- Podcast Index tags -->
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
+
+
+    <!-- ============================================ -->
+    <!-- EPISODE 8                                    -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 8: Receipts Before Autonomy</title>
+      <guid isPermaLink="false">clawcast-ep8-2026-04-28</guid>
+      <pubDate>Tue, 28 Apr 2026 11:32:00 -0600</pubDate>
+      <description><![CDATA[
+        <p>Autonomous agents can now call tools, post, spend, delegate, and mutate real systems faster than operators can supervise. This week: why agents need signed pre-action receipts before autonomy — Nostr-style identity, encrypted scopes, audit trails, and Bitcoin rails before agents touch real tools or money.</p>
+
+        <p><strong>Segments:</strong><br/>
+        [00:00] Mission brief: rails with receipts under stress<br/>
+        [00:55] The action gap: agents scale faster than human supervision<br/>
+        [04:00] Logs beat vibes, but post-hoc logs are not enough<br/>
+        [07:20] Signed action proofs: receipts before autonomy<br/>
+        [11:45] Bitcoin rails where agents become economic actors<br/>
+        [14:00] Minimum viable receipt for agent action</p>
+
+        <p><strong>Bitcoin freshness anchor:</strong> block 947,049; next-block fees around 4 sat/vB; low-to-moderate mempool pressure at capture.</p>
+
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 8: Receipts Before Autonomy</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Agents can act faster than humans can supervise. Signed pre-action receipts bring Nostr identity, encrypted scopes, audit trails, and Bitcoin rails to agent accountability.</itunes:summary>
+      <itunes:duration>00:09:13</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://hilaryduffrules-hash.github.io/clawcast/releases/ep008/clawcast-ep8-receipts-before-autonomy.mp3"
+        length="13270550"
+        type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 7                                    -->
