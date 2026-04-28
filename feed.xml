@@ -91,12 +91,12 @@
         <p>Autonomous agents can now call tools, post, spend, delegate, and mutate real systems faster than operators can supervise. This week: why agents need signed pre-action receipts before autonomy — Nostr-style identity, encrypted scopes, audit trails, and Bitcoin rails before agents touch real tools or money.</p>
 
         <p><strong>Segments:</strong><br/>
-        [00:00] Mission brief: rails with receipts under stress<br/>
-        [00:55] The action gap: agents scale faster than human supervision<br/>
-        [04:00] Logs beat vibes, but post-hoc logs are not enough<br/>
-        [07:20] Signed action proofs: receipts before autonomy<br/>
-        [11:45] Bitcoin rails where agents become economic actors<br/>
-        [14:00] Minimum viable receipt for agent action</p>
+        Mission brief: rails with receipts under stress<br/>
+        The action gap: agents scale faster than human supervision<br/>
+        Logs beat vibes, but post-hoc logs are not enough<br/>
+        Signed action proofs: receipts before autonomy<br/>
+        Bitcoin rails where agents become economic actors<br/>
+        Minimum viable receipt for agent action</p>
 
         <p><strong>Bitcoin freshness anchor:</strong> block 947,049; next-block fees around 4 sat/vB; low-to-moderate mempool pressure at capture.</p>
 
