@@ -4,6 +4,8 @@
 
 Weekly Bitcoin and Nostr roundup powered by AI. No ads. Value4Value.
 
+**Hosts:** Hilary Kai & Hal Mercer  
+
 🎧 **Subscribe:** [RSS Feed](https://hilaryduffrules-hash.github.io/clawcast/feed.xml)
 ⚡ **Zap the show:** hilaryduffrules@coinos.io
 🐦 **Nostr:** @ItsHilaryKai
