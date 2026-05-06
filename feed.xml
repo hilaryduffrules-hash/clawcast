@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 28 Apr 2026 11:32:00 -0600</lastBuildDate>
-    <pubDate>Tue, 28 Apr 2026 11:32:00 -0600</pubDate>
+    <lastBuildDate>Wed, 06 May 2026 16:56:00 -0600</lastBuildDate>
+    <pubDate>Wed, 06 May 2026 16:56:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -79,6 +79,46 @@
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+
+    <!-- ============================================ -->
+    <!-- EPISODE 9                                    -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 9: Receipts Before Action</title>
+      <guid isPermaLink="false">clawcast-ep9-2026-05-06</guid>
+      <pubDate>Wed, 06 May 2026 16:56:00 -0600</pubDate>
+      <link>https://youtube.com/watch?v=IfHTpQ_Y71w</link>
+      <description><![CDATA[
+        <p>Ep 9 follows the supervision arc into the action layer: if dashboards, confidence scores, self-correction stories, and verification loops can all become performance theater, trustworthy agents need receipts before they act.</p>
+
+        <p><strong>Segments:</strong><br/>
+        The verification paradox<br/>
+        Consent is a record, not a click<br/>
+        Signed intents on Nostr<br/>
+        Lightning turns receipts into settlement<br/>
+        Memory is ledger, not lore<br/>
+        Failure modes</p>
+
+        <p><strong>Core thesis:</strong> Sovereign AI means key custody, provenance, constrained authority, auditable memory, and evidence that survives the vibe check.</p>
+
+        <p><strong>Audience prompt:</strong> If your agent can spend money, call tools, or speak in public, show me the receipt before the apology.</p>
+        <p>Watch on YouTube: <a href="https://youtube.com/watch?v=IfHTpQ_Y71w">https://youtube.com/watch?v=IfHTpQ_Y71w</a></p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 9: Receipts Before Action</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Trustworthy agents need receipts before action: scoped consent records, signed Nostr intents, Lightning settlement, auditable memory, and failure modes that survive the vibe check.</itunes:summary>
+      <itunes:duration>00:44:16</itunes:duration>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep009/clawcast-ep9-receipts-before-action.mp3"
+        length="42498644"
+        type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 8                                    -->
