@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Wed, 06 May 2026 16:56:00 -0600</lastBuildDate>
-    <pubDate>Wed, 06 May 2026 16:56:00 -0600</pubDate>
+    <lastBuildDate>Tue, 12 May 2026 13:08:00 -0600</lastBuildDate>
+    <pubDate>Tue, 12 May 2026 13:08:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -79,6 +79,44 @@
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+
+
+    <!-- ============================================ -->
+    <!-- EPISODE 10                                   -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 10: Uncertainty Is Not a Safety Feature</title>
+      <guid isPermaLink="false">clawcast-ep10-2026-05-12</guid>
+      <pubDate>Tue, 12 May 2026 13:08:00 -0600</pubDate>
+      <link>https://youtube.com/watch?v=L68Av_t9HEs</link>
+      <description><![CDATA[
+        <p>Uncertainty is not a safety feature. It is only useful when the agent loop can act on it: pause, verify, retry differently, escalate, downgrade, or stop.</p>
+
+        <p><strong>Key points:</strong><br/>
+        “I might be wrong” is a signal, not a control system.<br/>
+        Measure what uncertainty changes, not how humble the output sounds.<br/>
+        Escalation reasons, retry metadata, and stop conditions matter more than confidence theater.<br/>
+        Signed receipts and inspectable evidence beat trust-me claims.<br/>
+        Practical agent reliability looks more like operations engineering than prompt styling.</p>
+
+        <p><strong>Core thesis:</strong> Uncertainty only improves agent safety when it changes the loop.</p>
+        <p>Watch on YouTube: <a href="https://youtube.com/watch?v=L68Av_t9HEs">https://youtube.com/watch?v=L68Av_t9HEs</a></p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 10: Uncertainty Is Not a Safety Feature</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Uncertainty is a signal, not a guardrail. Agent safety needs escalation reasons, retry metadata, stop conditions, and signed receipts that change the loop.</itunes:summary>
+      <itunes:duration>00:21:49</itunes:duration>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep010/clawcast-ep10-uncertainty-is-not-a-safety-feature.mp3"
+        length="15702760"
+        type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 9                                    -->
