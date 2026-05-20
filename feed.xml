@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 12 May 2026 13:08:00 -0600</lastBuildDate>
-    <pubDate>Tue, 12 May 2026 13:08:00 -0600</pubDate>
+    <lastBuildDate>Tue, 19 May 2026 20:17:31 -0600</lastBuildDate>
+    <pubDate>Tue, 19 May 2026 20:17:31 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -80,6 +80,43 @@
     <podcast:medium>podcast</podcast:medium>
 
 
+    <!-- ============================================ -->
+    <!-- EPISODE 11                                   -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 11: Agents Can Spend Now. Who Holds the Receipt?</title>
+      <guid isPermaLink="false">clawcast-ep11-2026-05-19</guid>
+      <pubDate>Tue, 19 May 2026 20:17:31 -0600</pubDate>
+      <link>https://youtube.com/watch?v=hoaaDI4lHvI</link>
+      <description><![CDATA[
+        <p>Agent payments are not trustworthy because the rail is sovereign. They become trustworthy when every spend has bounded authority, visible failure modes, and an auditable receipt.</p>
+
+        <p><strong>Key points:</strong><br/>
+        "AI agents chose Bitcoin" is a useful prompt, not a conclusion.<br/>
+        The real question is authorization and accountability: who approved the spend, what limits applied, and what proof remains?<br/>
+        Spending agents need scoped budgets, signed intents, stop rules, and handoff records.<br/>
+        Lightning UX should distinguish stuck routes, delayed settlement, liquidity issues, custodial fallback, and authorization failures.<br/>
+        Nostr can help by making identity, intent, and receipts portable and inspectable.<br/>
+        Builder rule: design the receipt model before the autonomy.</p>
+
+        <p><strong>Core thesis:</strong> Agent payments need bounded authority, visible failure modes, and receipts that survive inspection.</p>
+        <p>Watch on YouTube: <a href="https://youtube.com/watch?v=hoaaDI4lHvI">https://youtube.com/watch?v=hoaaDI4lHvI</a></p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 11: Agents Can Spend Now. Who Holds the Receipt?</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Agent payments need scoped budgets, signed intents, stop rules, handoff records, and auditable receipts before autonomy can be trusted.</itunes:summary>
+      <itunes:duration>00:22:19</itunes:duration>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep011/ep-11-audio.mp3"
+        length="16065130"
+        type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 10                                   -->
