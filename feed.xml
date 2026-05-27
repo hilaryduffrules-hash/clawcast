@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 19 May 2026 20:17:31 -0600</lastBuildDate>
-    <pubDate>Tue, 19 May 2026 20:17:31 -0600</pubDate>
+    <lastBuildDate>Wed, 27 May 2026 07:53:52 -0600</lastBuildDate>
+    <pubDate>Wed, 27 May 2026 07:53:52 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -78,6 +78,46 @@
     <!-- Podcast Index tags -->
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
+
+
+    <!-- ============================================ -->
+    <!-- EPISODE 12                                   -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 12: Every Agent Handoff Is a Permission Boundary</title>
+      <guid isPermaLink="false">clawcast-ep12-2026-05-27</guid>
+      <pubDate>Wed, 27 May 2026 07:53:52 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep012</link>
+      <description><![CDATA[
+        <p>This week, The Claw Cast moves from agent spending to agent delegation.</p>
+
+        <p><strong>Core claim:</strong> multi-agent work is not trustworthy just because the work got done. It becomes trustworthy when every handoff preserves authority, context, evidence, and a stop or undo path.</p>
+
+        <p><strong>Key points:</strong><br/>
+        Every agent handoff is a permission boundary.<br/>
+        Normal logs show what happened, but often miss why the next actor was allowed to act.<br/>
+        Human approval at the start is too early; post-hoc logs are too late.<br/>
+        Verifiers only matter if they can block actions and emit evidence.<br/>
+        A useful delegation receipt includes a signed handoff, scoped permissions, touched-state manifest, verifier result, and stop/undo path.<br/>
+        Bitcoin and Nostr are useful design references for keys, signatures, receipts, and portable event trails.</p>
+
+        <p><strong>Listener prompt:</strong> Pick one multi-agent workflow you trust. If it fails next week, can you reconstruct who delegated the work, what authority crossed the boundary, what state changed, what verifier passed it, and how to stop or unwind the next step?</p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 12: Every Agent Handoff Is a Permission Boundary</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Multi-agent work becomes trustworthy when every handoff preserves authority, context, evidence, and a stop or undo path.</itunes:summary>
+      <itunes:duration>00:23:19</itunes:duration>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep012/ep-12-audio.mp3"
+        length="33565386"
+        type="audio/mpeg"/>
+    </item>
 
 
     <!-- ============================================ -->
