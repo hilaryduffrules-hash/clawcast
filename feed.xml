@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Wed, 27 May 2026 07:53:52 -0600</lastBuildDate>
-    <pubDate>Wed, 27 May 2026 07:53:52 -0600</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2026 22:00:05 -0600</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2026 22:00:05 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -78,6 +78,46 @@
     <!-- Podcast Index tags -->
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
+
+
+    <!-- ============================================ -->
+    <!-- EPISODE 13                                   -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 13: Metadata Before Money</title>
+      <guid isPermaLink="false">clawcast-ep13-2026-06-02</guid>
+      <pubDate>Tue, 02 Jun 2026 22:00:05 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep013</link>
+      <description><![CDATA[
+        <p>Agent wallets are not the hard part. The hard part is proving what the agent was allowed to do, why it was allowed, what limits applied, what changed, and how the operator can audit or stop the next action.</p>
+
+        <p>This episode argues that payment rails for agents need an authority rail beside them: identity, delegated authorization, policy, spending scope, provenance, receipts, expiry, revocation, and replayable audit trails.</p>
+
+        <p><strong>Key points:</strong><br/>
+        The June 2 scan found a fresh Bitcoin payment-infrastructure hook in Second's Ark and Lightning work, but not enough evidence to claim an AI-agent payment breakout.<br/>
+        Payments make agent actions economically real, which makes ambiguous authority expensive.<br/>
+        A May 27 arXiv paper argues agents should not be trusted to carry security-critical metadata inside their own reasoning path; control metadata needs infrastructure support.<br/>
+        Gartner warned on May 26 that uniform governance across agents can fail, and predicted 40% of enterprises will demote or decommission autonomous agents by 2027 due to governance gaps.<br/>
+        Bitcoin, Lightning, Ark, and Nostr are useful primitives for settlement, signed identity, events, and receipts, but they do not by themselves prove an agent had authority to act.<br/>
+        Approval prompts should scale by blast radius: read-only, advice, spending, publishing, trading, and account changes need different controls.</p>
+
+        <p><strong>Audience prompt:</strong> If your agent could spend money tomorrow, what would travel with that payment: identity, authorization, policy, expiry, receipt, and stop path, or just a transaction?</p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 13: Metadata Before Money</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Agent payment rails need an authority rail beside them: identity, delegated authorization, policy, spending scope, provenance, receipts, expiry, revocation, and replayable audit trails.</itunes:summary>
+      <itunes:duration>00:22:54</itunes:duration>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep013/ep-13-audio.mp3"
+        length="32985266"
+        type="audio/mpeg"/>
+    </item>
 
 
     <!-- ============================================ -->
