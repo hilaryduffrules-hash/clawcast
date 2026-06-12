@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 02 Jun 2026 22:00:05 -0600</lastBuildDate>
-    <pubDate>Tue, 02 Jun 2026 22:00:05 -0600</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2026 08:53:42 -0600</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2026 08:53:42 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -78,6 +78,46 @@
     <!-- Podcast Index tags -->
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
+
+
+    <!-- ============================================ -->
+    <!-- EPISODE 14                                   -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 14: Receipts Before Effects</title>
+      <guid isPermaLink="false">clawcast-ep14-2026-06-12</guid>
+      <pubDate>Fri, 12 Jun 2026 08:53:42 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep014</link>
+      <description><![CDATA[
+        <p>If an agent can spend, publish, mutate, or delegate, its intent receipt has to exist before the effect fires. Otherwise the operator is trusting a story, not a control system.</p>
+
+        <p>This episode argues for write-ahead intent logs for irreversible agent actions: commit intent first, execute within a scoped capability envelope, then reconcile the actual effect against the expected one.</p>
+
+        <p><strong>Key points:</strong><br/>
+        The June 2-9 scan for bitcoin AI agents lightning nostr found 4 Hacker News items across 1 active source, so it is too thin to claim a broad AI-agent-Lightning breakout.<br/>
+        Ditto's Nostr-to-Bitcoin wallet and Second's Ark/Lightning payment infrastructure are useful design references, not proof that autonomous agent payments have arrived at scale.<br/>
+        Post-action explanations are not receipts. A receipt should record authorization, scope, expected effect, expiry, stop path, and reconciliation evidence.<br/>
+        Static allowlists are brittle once agents gain dynamic tools, connectors, model routes, and delegated sessions.<br/>
+        A useful intent log should capture actor identity, authority, action class, target, expected effect, budget or scope, expiry, revocation path, and reconciliation rule.<br/>
+        Bitcoin, Lightning, and Nostr point toward signed events, settlement receipts, bearer payment, and inspectable histories, but they do not solve operator authorization by themselves.</p>
+
+        <p><strong>Audience prompt:</strong> Would you let an agent spend, publish, or mutate state if the only receipt was written after it acted?</p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 14: Receipts Before Effects</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Irreversible agent actions need write-ahead intent logs before they spend, publish, mutate, or delegate.</itunes:summary>
+      <itunes:duration>00:20:02</itunes:duration>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep014/ep-14-audio.mp3"
+        length="28845590"
+        type="audio/mpeg"/>
+    </item>
 
 
     <!-- ============================================ -->
