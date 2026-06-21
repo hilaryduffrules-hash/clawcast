@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Fri, 12 Jun 2026 08:53:42 -0600</lastBuildDate>
-    <pubDate>Fri, 12 Jun 2026 08:53:42 -0600</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2026 01:13:56 -0600</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2026 01:13:56 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -78,6 +78,46 @@
     <!-- Podcast Index tags -->
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
+
+
+    <!-- ============================================ -->
+    <!-- EPISODE 15                                   -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 15: Replay Is Not a Receipt</title>
+      <guid isPermaLink="false">clawcast-ep15-2026-06-21</guid>
+      <pubDate>Sun, 21 Jun 2026 01:13:56 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep015</link>
+      <description><![CDATA[
+        <p>Replay is useful for debugging agent behavior, but it is not proof of external state.</p>
+
+        <p>This episode separates two ledgers every serious agent system needs: a path ledger for prompts, tools, retries, delegation, and recovery; and an effects ledger for money moved, messages sent, files changed, dependencies updated, credentials touched, and state mutated.</p>
+
+        <p><strong>Key points:</strong><br/>
+        Transcript replay shows the route an agent took, not what changed outside the transcript.<br/>
+        Path ledgers help debug prompts, context, tool calls, retries, failures, recovery, and delegation.<br/>
+        Effects ledgers reconcile external changes: payments, messages, files, dependencies, credentials, API budget, public events, and production state.<br/>
+        A different path is not always a safety failure, but an unexpected effect often is.<br/>
+        Unattended agent runs need a permission envelope: actor, authority, action class, scope, budget, expiry, risk tier, and stop path.<br/>
+        Bitcoin, Lightning, and Nostr are useful references for signed events, settlement receipts, and inspectable histories, but they do not prove operator authority by themselves.</p>
+
+        <p><strong>Audience prompt:</strong> If two agent runs take different paths, do you know whether anything important actually changed? Can your system prove it?</p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 15: Replay Is Not a Receipt</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Replay is useful for debugging agent behavior, but trustworthy systems need separate path diffs and effects ledgers before unattended runs can be trusted.</itunes:summary>
+      <itunes:duration>00:19:01</itunes:duration>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep015/ep-15-audio.mp3"
+        length="27374164"
+        type="audio/mpeg"/>
+    </item>
 
 
     <!-- ============================================ -->
