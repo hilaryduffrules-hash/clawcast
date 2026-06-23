@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Sun, 21 Jun 2026 01:13:56 -0600</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 01:13:56 -0600</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 17:09:41 -0600</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 17:09:41 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -78,6 +78,38 @@
     <!-- Podcast Index tags -->
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
+
+
+    <!-- ============================================ -->
+    <!-- EPISODE 16                                   -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 16: Rollback Is the Missing Trust Layer</title>
+      <guid isPermaLink="false">clawcast-ep16-2026-06-23</guid>
+      <pubDate>Tue, 23 Jun 2026 17:09:41 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep016</link>
+      <description><![CDATA[
+        <p>Autonomous tools are moving past advice and into state-changing work: files, packages, APIs, payments, publishing, databases, and delegated sessions. This episode argues that approvals and logs are not enough once an effect can land late, partially, twice, or after an agent reports failure. The missing trust layer is rollback and reconciliation.</p>
+
+        <p><strong>Core takeaway:</strong> If an autonomous tool can change state, trust depends on scoped authority before action, effect receipts during action, and rollback or reconciliation after action.</p>
+
+        <p><strong>Audience prompt:</strong> If your agent says the action failed, do you know whether the effect still landed? And if it did land, can your system stop, undo, compensate, or reconcile it?</p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 16: Rollback Is the Missing Trust Layer</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Approvals and logs are not enough once autonomous tools change external state. Trust needs scoped authority, effect receipts, and rollback or reconciliation.</itunes:summary>
+      <itunes:duration>00:20:10</itunes:duration>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep016/ep-16-audio.mp3"
+        length="29049345"
+        type="audio/mpeg"/>
+    </item>
 
 
     <!-- ============================================ -->
