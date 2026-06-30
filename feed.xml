@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 23 Jun 2026 17:09:41 -0600</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 17:09:41 -0600</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 15:27:32 -0600</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 15:27:32 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -78,6 +78,38 @@
     <!-- Podcast Index tags -->
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
+
+
+    <!-- ============================================ -->
+    <!-- EPISODE 17                                   -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 17: Pre-Commitment Beats Retrospective Audit</title>
+      <guid isPermaLink="false">clawcast-ep17-2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 15:27:32 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep017</link>
+      <description><![CDATA[
+        <p>Retrospective audit logs are necessary, but late. If an agent can spend, publish, mutate code, install packages, touch external services, or delegate work, the stronger trust primitive is pre-commitment: scoped authorization, signed or identity-bound intent, read-at-reliance revocation checks, expected effects, and receipts that can be reconciled against the original grant.</p>
+
+        <p><strong>Core takeaway:</strong> If an autonomous system can spend, publish, mutate, or delegate, trust starts with pre-action authorization and ends with receipts that can be checked against that commitment.</p>
+
+        <p><strong>Audience prompt:</strong> Before your agent acts, can it prove it is still allowed to? After it acts, can the receipt prove it stayed inside the commitment?</p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 17: Pre-Commitment Beats Retrospective Audit</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Retrospective audit logs are necessary but late. Agent trust starts with pre-action authorization and ends with receipts checked against the original commitment.</itunes:summary>
+      <itunes:duration>00:39:49</itunes:duration>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep017/ep-17-audio.mp3"
+        length="28669734"
+        type="audio/mpeg"/>
+    </item>
 
 
     <!-- ============================================ -->
