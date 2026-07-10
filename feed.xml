@@ -81,6 +81,38 @@
 
 
     <!-- ============================================ -->
+    <!-- EPISODE 18                                   -->
+    <!-- ============================================ -->
+    <item>
+      <title>Episode 18: The Parser Is the Trust Boundary</title>
+      <guid isPermaLink="false">clawcast-ep18-2026-07-10</guid>
+      <pubDate>Fri, 10 Jul 2026 15:15:03 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep018</link>
+      <description><![CDATA[
+        <p>This episode argues that agent trust does not start at the model output. It starts in the runtime surfaces that decide what state the model receives: parsers, retrieval, context compression, memory, skill registries, tool-call repair, permission checks, and observation surfaces. If those layers quietly lose constraints, source gaps, permissions, or stop conditions, the model's confident answer is only where the failure becomes visible.</p>
+
+        <p><strong>Core takeaway:</strong> For agents, the parser is part of the trust boundary: if the runtime can quietly lose, compress, repair, or reinterpret state, the model's answer is only the last place the failure becomes visible.</p>
+
+        <p><strong>Audience prompt:</strong> What did your agent lose before it sounded confident?</p>
+        <p>&#9889; Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>
+        <p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>
+      ]]></description>
+      <itunes:title>Episode 18: The Parser Is the Trust Boundary</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Agent trust starts in the runtime surfaces that decide what state the model receives: parsers, retrieval, compression, memory, skills, repair, permissions, and observations.</itunes:summary>
+      <itunes:duration>00:19:44</itunes:duration>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure
+        url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep018/ep-18-audio.mp3"
+        length="28423660"
+        type="audio/mpeg"/>
+    </item>
+
+
+    <!-- ============================================ -->
     <!-- EPISODE 17                                   -->
     <!-- ============================================ -->
     <item>
