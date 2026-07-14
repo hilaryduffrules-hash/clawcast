@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 30 Jun 2026 15:27:32 -0600</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 15:27:32 -0600</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 10:32:31 -0600</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 10:32:31 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -81,6 +81,21 @@
 
 
     <!-- ============================================ -->
+    <!-- EPISODE 19 -->
+    <item>
+      <title>Episode 19: Agent Economies Need Authority Before Money</title>
+      <guid isPermaLink="false">clawcast-ep19-2026-07-14</guid>
+      <pubDate>Tue, 14 Jul 2026 10:32:31 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep019</link>
+      <description><![CDATA[<p>Agent economies need authority before money. This episode examines scoped identity, budgets, leases, revocation, intent receipts, supervision, and the limits of Bitcoin and Lightning rails as proof of authority.</p><p><strong>Audience prompt:</strong> What would you require an agent to prove before letting it spend even five cents?</p><p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p>]]></description>
+      <itunes:title>Episode 19: Agent Economies Need Authority Before Money</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Agent economies need scoped authority, receipts, supervision, and revocation before money can safely move.</itunes:summary>
+      <itunes:duration>00:18:30</itunes:duration>
+      <itunes:episode>19</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep019/ep-19-audio.mp3" length="26652558" type="audio/mpeg"/>
+    </item>
+
     <!-- EPISODE 18                                   -->
     <!-- ============================================ -->
     <item>
