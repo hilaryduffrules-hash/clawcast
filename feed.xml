@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 14 Jul 2026 10:32:31 -0600</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 10:32:31 -0600</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 20:42:14 -0600</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 20:42:14 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -79,6 +79,22 @@
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+
+    <!-- ============================================ -->
+    <!-- EPISODE 20 -->
+    <item>
+      <title>Episode 20: The Agent That Says 200 OK</title>
+      <guid isPermaLink="false">clawcast-ep20-2026-07-22</guid>
+      <pubDate>Wed, 22 Jul 2026 20:42:14 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep020</link>
+      <description><![CDATA[<p>The most dangerous autonomous-system failure is not a crash; it is a plausible success receipt with no provenance. This episode examines why a green scheduler status is not proof that the requested artifact or side effect exists, and what a verifiable agent handoff should contain: input, authority, side effect, evidence, and the human gate for the next irreversible action.</p><p><strong>Audience prompt:</strong> What evidence would you require before trusting an agent's "200 OK"?</p><p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p><p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>]]></description>
+      <itunes:title>Episode 20: The Agent That Says 200 OK</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>A green status is not proof. Episode 20 examines provenance, authority, side effects, evidence, and human gates for agent handoffs.</itunes:summary>
+      <itunes:duration>00:38:39</itunes:duration>
+      <itunes:episode>20</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep020/ep-20-audio.mp3" length="55663523" type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 19 -->
