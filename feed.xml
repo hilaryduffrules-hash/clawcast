@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Wed, 22 Jul 2026 20:42:14 -0600</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 20:42:14 -0600</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2026 21:15:21 -0600</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2026 21:15:21 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -79,6 +79,22 @@
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+
+    <!-- ============================================ -->
+    <!-- EPISODE 21 -->
+    <item>
+      <title>Episode 21: The Model You Forgot to Pin</title>
+      <guid isPermaLink="false">clawcast-ep21-2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 21:15:21 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep021</link>
+      <description><![CDATA[<p>An agent can be “the same” in code and prompt while its model, context, skills, or evaluation target changes underneath it. This episode examines why reliable autonomy requires a dependency receipt and a human gate, not a confidence number.</p><p><strong>Audience prompt:</strong> What is the smallest dependency receipt you require before an agent is allowed to trigger an irreversible action?</p><p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p><p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>]]></description>
+      <itunes:title>Episode 21: The Model You Forgot to Pin</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Reliable autonomy requires pinning dependencies and recording a receipt for the exact model, context, tools, policies, and evaluator in force.</itunes:summary>
+      <itunes:duration>00:29:29</itunes:duration>
+      <itunes:episode>21</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep021/ep-21-audio.mp3" length="42457684" type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 20 -->
