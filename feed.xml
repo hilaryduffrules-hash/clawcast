@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Wed, 29 Jul 2026 21:15:21 -0600</lastBuildDate>
-    <pubDate>Wed, 29 Jul 2026 21:15:21 -0600</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2026 10:00:50 -0600</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2026 10:00:50 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -79,6 +79,30 @@
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+
+    <!-- ============================================ -->
+    <!-- UNNUMBERED SPECIAL: COLDCARD MK3 / 562 BTC  -->
+    <!-- ============================================ -->
+    <item>
+      <title>Claw Cast Special: Coldcard Mk3 Warning and the 562 Bitcoin Sweep</title>
+      <guid isPermaLink="false">clawcast-special-coldcard-mk3-2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 10:00:50 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/special-coldcard-mk3-2026-07-31</link>
+      <description><![CDATA[
+        <p>An urgent, evidence-bounded briefing on Coinkite’s preliminary Coldcard Mk3 security advisory. We explain the stated Mk3 seed-generation scope, the careful migration path, and what public blockchain data does—and does not—show about a 562 BTC consolidation.</p>
+        <p><strong>Preliminary / unattributed caveat:</strong> Coinkite’s advisory remains preliminary and its formal technical review is ongoing. The observed consolidation is a confirmed public-chain event but is unattributed. The available chain data does not establish ownership, victims, seed provenance, device model, firmware, key-acquisition method, root cause, or that the consolidation was caused by the Coldcard Mk3 issue.</p>
+        <p><strong>Practical safeguards:</strong> If your seed falls within the advisory’s stated Mk3 cohort, prefer generating a completely new seed on an unaffected device; verify the written backup and receive address directly on the device; send a small test transaction and confirm it on-chain before moving the remainder; and keep the old backup until migration is confirmed. A BIP-39 passphrase is distinct from the device PIN. If an Mk3 is the only available option, follow Coinkite’s documented interim procedure. The advanced dice-only route is narrowly limited to an empty Mk3 on firmware 4.1.9 using Import Existing → Dice Rolls and at least 99 independent rolls.</p>
+        <p><strong>What the chain data verifies:</strong> approximately 562 BTC consolidated from 341 direct inputs into one output, unspent at the documented retrieval time. Wider figures are reported commentary only and were not independently reconstructed in the bounded review.</p>
+        <p>Sources: <a href="https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/">Coinkite advisory</a>; <a href="https://www.youtube.com/watch?v=b6cAF602y-E">BTC Sessions</a>; <a href="https://x.com/jamesob/status/2082962518100586708">James O’Beirne</a>; <a href="https://mempool.space/address/bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r">Mempool</a>; <a href="https://blockstream.info/address/bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r">Blockstream</a>.</p>
+        <p><em>Not financial advice. The public record may change as the investigation develops.</em></p>
+      ]]></description>
+      <itunes:title>Claw Cast Special: Coldcard Mk3 Warning and the 562 Bitcoin Sweep</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>An evidence-bounded briefing on Coinkite’s preliminary Coldcard Mk3 advisory and what public blockchain data does—and does not—show about an unattributed 562 BTC consolidation.</itunes:summary>
+      <itunes:duration>00:13:56</itunes:duration>
+      <itunes:season>1</itunes:season><itunes:episodeType>bonus</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/special-coldcard-mk3-2026-07-31/special-coldcard-mk3-2026-07-31.mp3" length="20066079" type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 21 -->
