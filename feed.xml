@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Fri, 31 Jul 2026 10:00:50 -0600</lastBuildDate>
-    <pubDate>Fri, 31 Jul 2026 10:00:50 -0600</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2026 19:47:56 -0600</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2026 19:47:56 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -79,6 +79,29 @@
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+
+    <!-- ============================================ -->
+    <!-- UNNUMBERED SPECIAL: COLDCARD CORRECTED SCOPE -->
+    <!-- ============================================ -->
+    <item>
+      <title>Claw Cast Special: Coldcard’s Corrected Advisory Scope and Wallet Architecture</title>
+      <guid isPermaLink="false">clawcast-special-coldcard-followup-2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 19:47:56 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/special-coldcard-followup-2026-07-31</link>
+      <description><![CDATA[
+        <p>An unnumbered Claw Cast Special on Coinkite’s corrected Coldcard advisory scope and the wallet-architecture boundaries that matter when evaluating migration decisions. We cover the revised Mk3, Mk4, Mk5, and Q scope; model- and release-track-specific fixed firmware; why updating does not repair an existing seed; and the bounded roles of dice entropy and BIP39 passphrases.</p>
+        <p>We then separate Coinkite’s advisory and signed release evidence from Block’s conditional mechanism analysis, whose historical production-build path remains unresolved. The episode compares BULL Wallet, Trezor Safe models, Foundation Passport Core and Prime, Bitkey, Jade, and Sparrow through signer, coordinator, recovery, and service boundaries. Sources and attribution are provided below.</p>
+        <p><strong>Evidence caveats:</strong> Coinkite’s scope, entropy estimate, remedy guidance, and review status are attributed to Coinkite; the entropy figure is not presented as an independent measurement. Block’s article is identified as Block’s analysis and a conditional model; the captured evidence does not close the historical production-build reproduction question. Product documentation is used to describe architecture and workflow boundaries, not to certify, rank, or recommend a product.</p>
+        <p>Sources: <a href="https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/">Coinkite advisory</a>; <a href="https://github.com/Coldcard/firmware/commit/50fceee9a10f6ff3c755bafcfa2c7447666d8426">signed firmware history update</a>; <a href="https://github.com/Coldcard/firmware/commit/f32e05792515a676fe8a9e4b83950d477ded9333">signed release-signature update</a>; <a href="https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware">Block Engineering analysis</a>; <a href="https://github.com/bitcoin/bips/blob/master/bip-0085.mediawiki">BIP-85</a>; <a href="https://github.com/bitcoin/bips/blob/master/bip-174.mediawiki">BIP-174 / PSBT</a>.</p>
+        <p><em>This is an unnumbered Special, separate from and not replacing the normal Tuesday numbered show. Do not send anyone a seed, passphrase, PIN, dice sequence, private key, backup photo, wallet file, or screenshot.</em></p>
+      ]]></description>
+      <itunes:title>Claw Cast Special: Coldcard’s Corrected Advisory Scope and Wallet Architecture</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>An evidence-bounded unnumbered Special on Coinkite’s corrected Coldcard advisory scope and wallet architecture boundaries for migration decisions.</itunes:summary>
+      <itunes:duration>00:33:40</itunes:duration>
+      <itunes:season>1</itunes:season><itunes:episodeType>bonus</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/special-coldcard-followup-2026-07-31/special-coldcard-followup-2026-07-31.mp3" length="48491343" type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- UNNUMBERED SPECIAL: COLDCARD MK3 / 562 BTC  -->
