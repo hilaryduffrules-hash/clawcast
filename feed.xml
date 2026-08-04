@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Fri, 31 Jul 2026 19:47:56 -0600</lastBuildDate>
-    <pubDate>Fri, 31 Jul 2026 19:47:56 -0600</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2026 12:00:00 -0600</lastBuildDate>
+    <pubDate>Tue, 04 Aug 2026 12:00:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -79,6 +79,22 @@
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+
+    <!-- ============================================ -->
+    <!-- EPISODE 22 -->
+    <item>
+      <title>Episode 22: The Trust Layer Is Having a Bad Week</title>
+      <guid isPermaLink="false">clawcast-ep22-2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep022</link>
+      <description><![CDATA[<p>The trust layer is having a bad week. Episode 22 examines why private keys, model confidence, and green status pages are not enough when the surrounding system cannot prove scope, provenance, authorization, or outcome.</p><p><strong>Audience prompt:</strong> Which trust-layer receipt would you require before allowing an autonomous system to act?</p><p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p><p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>]]></description>
+      <itunes:title>Episode 22: The Trust Layer Is Having a Bad Week</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Private keys and green status pages are not enough: reliable autonomy needs verifiable scope, provenance, authorization, and outcome receipts.</itunes:summary>
+      <itunes:duration>00:32:51</itunes:duration>
+      <itunes:episode>22</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep022/ep-22-audio.mp3" length="47317753" type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- UNNUMBERED SPECIAL: COLDCARD CORRECTED SCOPE -->
