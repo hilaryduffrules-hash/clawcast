@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 04 Aug 2026 12:00:00 -0600</lastBuildDate>
-    <pubDate>Tue, 04 Aug 2026 12:00:00 -0600</pubDate>
+    <lastBuildDate>Tue, 11 Aug 2026 12:00:00 -0600</lastBuildDate>
+    <pubDate>Tue, 11 Aug 2026 12:00:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -79,6 +79,22 @@
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+
+    <!-- ============================================ -->
+    <!-- EPISODE 23 -->
+    <item>
+      <title>Episode 23: The Freshness Tax: Agents Need Witnesses, Not More Autonomy</title>
+      <guid isPermaLink="false">clawcast-ep23-2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 12:00:00 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep023</link>
+      <description><![CDATA[<p>Agents do not become trustworthy by gaining more autonomy. They become trustworthy when their actions leave fresh, independently checkable evidence.</p><p>Episode 23 examines the freshness tax: why scopes, provenance, authorization, and outcomes need witnesses that can verify what happened when it mattered.</p><p><strong>Audience prompt:</strong> What witness should every agent action be required to leave behind?</p><p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p><p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>]]></description>
+      <itunes:title>Episode 23: The Freshness Tax: Agents Need Witnesses, Not More Autonomy</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Agents need fresh, independently checkable witnesses for scope, provenance, authorization, and outcomes—not simply more autonomy.</itunes:summary>
+      <itunes:duration>00:36:20</itunes:duration>
+      <itunes:episode>23</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep023/ep-23-audio.mp3" length="52325740" type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 22 -->
