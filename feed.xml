@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 11 Aug 2026 12:00:00 -0600</lastBuildDate>
-    <pubDate>Tue, 11 Aug 2026 12:00:00 -0600</pubDate>
+    <lastBuildDate>Tue, 18 Aug 2026 12:00:00 -0600</lastBuildDate>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -81,6 +81,21 @@
 
 
     <!-- ============================================ -->
+    <!-- EPISODE 24 -->
+    <item>
+      <title>Episode 24: The Witness Gap — Reliable Agents Need Receipts, Not Just Autonomy</title>
+      <guid isPermaLink="false">clawcast-ep24-2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep024</link>
+      <description><![CDATA[<p>Reliable agents need receipts, not just autonomy. Episode 24 examines the witness gap and the evidence required to trust agent actions.</p><p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p><p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>]]></description>
+      <itunes:title>Episode 24: The Witness Gap — Reliable Agents Need Receipts, Not Just Autonomy</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Reliable agents need receipts, not just autonomy: Episode 24 examines the witness gap and evidence required to trust agent actions.</itunes:summary>
+      <itunes:duration>00:25:28</itunes:duration>
+      <itunes:episode>24</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep024/ep-24-audio.mp3" length="36661008" type="audio/mpeg"/>
+    </item>
+
     <!-- EPISODE 23 -->
     <item>
       <title>Episode 23: The Freshness Tax: Agents Need Witnesses, Not More Autonomy</title>
