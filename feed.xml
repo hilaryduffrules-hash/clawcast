@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 18 Aug 2026 12:00:00 -0600</lastBuildDate>
-    <pubDate>Tue, 18 Aug 2026 12:00:00 -0600</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2026 12:00:00 -0600</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2026 12:00:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -81,6 +81,21 @@
 
 
     <!-- ============================================ -->
+    <!-- EPISODE 25 -->
+    <item>
+      <title>Episode 25: The Retry Is the Attack Surface — When Agents Repeat the Wrong Thing</title>
+      <guid isPermaLink="false">clawcast-ep25-2026-08-25</guid>
+      <pubDate>Tue, 25 Aug 2026 12:00:00 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep025</link>
+      <description><![CDATA[<p>The retry is the attack surface. Episode 25 examines what happens when agents repeat the wrong thing, and why reliable systems need bounded, witnessed recovery.</p><p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p><p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>]]></description>
+      <itunes:title>Episode 25: The Retry Is the Attack Surface — When Agents Repeat the Wrong Thing</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>The retry is the attack surface: Episode 25 examines reliable, witnessed recovery when agents repeat the wrong thing.</itunes:summary>
+      <itunes:duration>00:31:38</itunes:duration>
+      <itunes:episode>25</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep025/ep-25-audio.mp3" length="45562324" type="audio/mpeg"/>
+    </item>
+
     <!-- EPISODE 24 -->
     <item>
       <title>Episode 24: The Witness Gap — Reliable Agents Need Receipts, Not Just Autonomy</title>
