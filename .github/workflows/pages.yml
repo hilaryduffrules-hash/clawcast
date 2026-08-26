@@ -2,6 +2,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    paths:
+      - 'feed.xml'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest

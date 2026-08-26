@@ -26,7 +26,7 @@
 
 - Asset URL: https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep025/ep-25-audio.mp3
 - Independent download on 2026-08-26: HTTP 200; 45,562,324 bytes; SHA-256 exactly matched approved master. GitHub download response Content-Type was `application/octet-stream`; RSS enclosure MIME is `audio/mpeg`.
-- Cache-busted Pages feed polls on 2026-08-26: HTTP 200 but all 12 bounded polls remained stale at EP24; EP25 GUID/title/enclosure were not observed. Pages workflow list did not show a run for the EP25 commit; workflow dispatch was unavailable because `pages.yml` has no `workflow_dispatch` trigger. Public RSS freshness is therefore **not verified** and requires Pages deployment repair/trigger.
+- Initial cache-busted Pages feed polls on 2026-08-26: HTTP 200 but all 12 bounded polls remained stale at EP24; EP25 GUID/title/enclosure were not observed. The workflow had only a broad `push` trigger and no `workflow_dispatch`; the empty follow-up trigger commit was not a durable recovery mechanism. Public RSS freshness was unverified pending workflow repair and redeployment.
 
 ## Scope and exclusions
 
