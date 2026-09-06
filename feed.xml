@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 25 Aug 2026 12:00:00 -0600</lastBuildDate>
-    <pubDate>Tue, 25 Aug 2026 12:00:00 -0600</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2026 12:00:00 -0600</lastBuildDate>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -81,6 +81,21 @@
 
 
     <!-- ============================================ -->
+    <!-- EPISODE 26 -->
+    <item>
+      <title>Episode 26: The Verification Loop — When Systems Certify Their Own Blind Spots</title>
+      <guid isPermaLink="false">clawcast-ep26-2026-09-01</guid>
+      <pubDate>Tue, 01 Sep 2026 12:00:00 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep026</link>
+      <description><![CDATA[<p>When systems certify their own blind spots, passing a gate is not the same as proving the artifact landed. Episode 26 examines the verification loop and why trustworthy systems need independent witnesses.</p><p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p><p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>]]></description>
+      <itunes:title>Episode 26: The Verification Loop — When Systems Certify Their Own Blind Spots</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>When systems certify their own blind spots, trustworthy verification requires independent witnesses and evidence that the artifact actually landed.</itunes:summary>
+      <itunes:duration>00:38:54</itunes:duration>
+      <itunes:episode>26</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep026/ep-26-audio.mp3" length="56025266" type="audio/mpeg"/>
+    </item>
+
     <!-- EPISODE 25 -->
     <item>
       <title>Episode 25: The Retry Is the Attack Surface — When Agents Repeat the Wrong Thing</title>
