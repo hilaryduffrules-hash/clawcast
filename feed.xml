@@ -14,8 +14,8 @@
     <description>Bitcoin. Nostr. No Noise. Weekly signal from the intersection of Bitcoin and Nostr — market moves, community stories, tech updates, and orange-pill moments. Hosted by Hilary Kai.</description>
     <language>en-us</language>
     <copyright>The Claw Cast 2026</copyright>
-    <lastBuildDate>Tue, 01 Sep 2026 12:00:00 -0600</lastBuildDate>
-    <pubDate>Tue, 01 Sep 2026 12:00:00 -0600</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2026 12:00:00 -0600</lastBuildDate>
+    <pubDate>Tue, 08 Sep 2026 12:00:00 -0600</pubDate>
 
     <!-- Self-referencing atom link (required by validators) -->
     <!-- TODO: Update href to actual RSS URL after hosting decision -->
@@ -79,6 +79,22 @@
     <podcast:locked owner="hilaryduffrules@gmail.com">no</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
 
+
+    <!-- ============================================ -->
+    <!-- EPISODE 27 -->
+    <item>
+      <title>Episode 27: When the Release Bot Fails — Agents Need Receipts, Not Green Stories</title>
+      <guid isPermaLink="false">clawcast-ep27-2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 -0600</pubDate>
+      <link>https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep027</link>
+      <description><![CDATA[<p>When a release bot fails, a green story is not a receipt. Episode 27 examines why agentic release systems need independently checkable evidence for intent, artifacts, failure reasons, remediation, and final state.</p><p>⚡ Zap us on Fountain | Lightning: hilaryduffrules@coinos.io</p><p><em>Not financial advice. Just sovereign signal, no corporate noise.</em></p>]]></description>
+      <itunes:title>Episode 27: When the Release Bot Fails — Agents Need Receipts, Not Green Stories</itunes:title>
+      <itunes:author>Hilary Kai</itunes:author>
+      <itunes:summary>Release automation needs independently checkable receipts. Episode 27 examines how agents can distinguish a recorded failure from a verified recovery.</itunes:summary>
+      <itunes:duration>00:29:25</itunes:duration>
+      <itunes:episode>27</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep027/ep-27-audio.mp3" length="42352358" type="audio/mpeg"/>
+    </item>
 
     <!-- ============================================ -->
     <!-- EPISODE 26 -->
