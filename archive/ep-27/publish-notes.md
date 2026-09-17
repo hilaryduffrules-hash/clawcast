@@ -56,3 +56,20 @@
 - This receipt is a separate post-publication commit and does not match the Pages workflow's automatic `feed.xml`/workflow path triggers.
 - No release/tag/feed partial state was found during preflight; `ep027` did not exist before publication.
 - No warnings blocking publication. The asset is below GitHub's 50 MB recommendation.
+
+## YouTube publication preflight — blocked before upload
+
+- Preflight date: `2026-09-17`.
+- Approved video: `/home/murphy/.local/share/omarchy-migration/nonmac-deployment-candidate-v1/profiles/hilary/workspace/clawcast/episodes/ep-27-static-video.mp4`.
+- Video bytes: `106133012`.
+- Video SHA-256: `7e414c03086ccaa2dcba19d6e710f9fdc08f9bb476ed3edf11c9036a5600fc0f` — PASS.
+- Local QC receipt: `workspace/clawcast/episodes/ep-27-static-video-qc.md` — PASS; H.264 Constrained Baseline 1920x1080 yuv420p 24 fps + AAC-LC 44.1 kHz stereo; container duration `1764.600454 s`; full null decode exit `0` with zero stderr bytes; representative start/mid/end continuity PASS.
+- Description URL checks: direct audio HTTP `200`; release page HTTP `200`; RSS HTTP `200` (all followed redirects where applicable).
+  - Direct audio: `https://github.com/hilaryduffrules-hash/clawcast/releases/download/ep027/ep-27-audio.mp3`
+  - Release page: `https://github.com/hilaryduffrules-hash/clawcast/releases/tag/ep027`
+  - RSS: `https://hilaryduffrules-hash.github.io/clawcast/feed.xml`
+- Established target from prior receipts: Hilary Kai / `@itshilarykai` / `UCuIAG8hqQzfR0DFOgs2cfAQ`. **Current authenticated verification did not pass:** the only present `/home/murphy/.config/gws/credentials.json` refresh session belongs to the Google Workspace lane and `channels.list(mine=true)` returned HTTP `403 insufficientPermissions` (YouTube scope absent); no current YouTube credential file was present.
+- Recovery lanes checked without exposing secrets: documented prior OAuth path `/home/murphy/.config/gws/youtube_credentials.json` is absent; local protected-vault REST status is `unlocked` for `hilaryduffrules@gmail.com`, but precise metadata/detail searches for `youtube`, `YouTube OAuth`, and the Google Account item yielded no YouTube credential material; Bitwarden CLI is not installed; no established YouTube uploader was present in the active profile.
+- Duplicate prevention: public bounded channel videos scan returned `29` uploads (latest EP26 `wLrGQJxK_Oc`); exact approved EP27 title appeared `0` times. Public exact-title search corroboration returned no exact match. This is public corroboration only because authenticated channel scan was blocked by missing YouTube scope.
+- Upload result: **NOT ATTEMPTED**. No video ID, API upload response, processing poll, watch-page/player verification, or API thumbnail URLs exist.
+- Blocker: fail-closed on missing authenticated YouTube OAuth scope. No upload, metadata change, thumbnail, comment, playlist, RSS, or social action was performed.
